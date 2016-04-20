@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+
+body{background-color: black;
+
+
+}
+header{
+	margin-top: 50px;
+	width: 100%;
+}
+
+h1{font-size: 3em;
+font-family: 'Fjalla One', sans-serif;
+color:white; }
+
+
+#red {
+    transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -ms-transition: background-clor 2s;
+    -o-transition: background-color 2s;
+    width:500px;
+    height:500px;
+    background-color:red;
+  }
+
+  #red:hover {
+    background-color:blue;
+}
+
+
+#blue {
+    transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -ms-transition: background-clor 2s;
+    -o-transition: background-color 2s;
+    width:500px;
+    height:500px;
+    background-color:blue;
+  }
+
+  #blue:hover {
+    background-color:red;
+}
+
+
+#green {
+    transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -ms-transition: background-clor 2s;
+    -o-transition: background-color 2s;
+    width:500px;
+    height:500px;
+    background-color:green;
+  }
+
+  #green:hover {
+    background-color:black;
+}
+
+#black {
+    transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -ms-transition: background-clor 2s;
+    -o-transition: background-color 2s;
+    width:500px;
+    height:500px;
+    background-color:black;
+  }
+
+  #black:hover {
+    background-color:green;
+}
+
+
+section {margin: 0 auto;
+display: flex;
+
+
+height: 100%}
+
+div{margin-top:10%
+	margin-bottom:10%;
+	}
+
+
+
