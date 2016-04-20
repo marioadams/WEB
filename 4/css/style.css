@@ -1,0 +1,59 @@
+
+	
+header{		background-image: url(../images/cafe.jpg);
+			background-repeat: no-repeat;
+			height:287px ;
+			width:990px ;}
+
+div{
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	width:990px;
+}
+
+
+h1{padding:50px;}
+
+h2{font-family: 'Open Sans', sans-serif;
+font-size: 20px;}
+
+
+nav{background-color: #200903;
+	padding-top: 10px;
+}
+
+ul :hover{
+	background-color: #A08155;
+}
+
+
+li{display: inline-block;
+	margin-right: 100px;
+	color:white;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;}
+
+
+
+
+article{	padding-top: 50px;
+			height: 450px;
+			width: 450px;
+		float: left;
+			
+		     font-family: 'Open Sans', sans-serif;
+		     text-align: justify-all;}
+
+footer { background-color: #200903; 
+        clear: left;
+	     width:990px ; }
+
+
+
+footer p {color:white;
+			text-align: left;
+			padding-top: 10px;
+			font-family: 'Open Sans', sans-serif;;
+}
+
+

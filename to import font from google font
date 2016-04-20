@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('type/Lobster.eot');
+  src: url('type/Lobster.eot?#iefix') format('embedded-opentype'),
+    url('type/Lobster.woff') format('woff'),
+    url('type/Lobster.ttf') format('truetype'),
+    url('type/Lobster.svg#Lobster13Regular') format('svg');
+}

@@ -1,0 +1,54 @@
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);} 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+
+h1{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+li {list-style: none;
+;
+}
+
+nav{float:right;
+display: inline-block;
+font-family: 'Open Sans', sans-serif;
+}
+
+div{
+	max-width: 900px;
+margin: 0 auto;
+width: 100%;
+
+}
+
+aside{
+	
+	width:20%;
+	float:left;
+}
+
+section{float:right;
+	width:80%;
+	font-family: helvetica;
+;
+;}
+
+footer{clear: both;
+font-family: 'Open Sans', sans-serif}
+
+a{text-decoration: none;
+color: black}
+
+a .hover{ color:red; }
+
+@media screen and (max-width: 450px){
+	nav{display: none;}
+	aside{display: inline;
+		width:100%;
+		text-align: center;}
+
+
+}

@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+header{		background-image : url (../images/cafe.jpg);
+			background-repeat: no-repeat;
+			height:287px ;
+			width:990px ;}
+
+
+div{margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+h1{
+
+	padding:50px;}
+
+
+nav{
+	background-color: #200903;
+padding-top: 5px;
+margin-top:-10px;
+width:990px ;
+}
+
+li :hover{
+	background-color: #A08155;
+}
+
+
+li{display: inline-block;
+	margin-right: 100px;
+	color:white;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;}
+
+
+article{	padding-top: 50px;
+			height: 450px;
+			width: 450px;
+			float:left;
+			text-align: justify-all;
+		     font-family: 'Open Sans', sans-serif;}
+
+footer { background-color: #200903; 
+         height:50px ;
+	     width:990px ; }
+
+
+
+footer p {color:white;
+			text-align: left;
+			padding-top: 15px;
+			font-family: 'Open Sans', sans-serif;;
+}
