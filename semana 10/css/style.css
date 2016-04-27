@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+.ma{margin-top:50px 
+
+
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;}
+
+
+#container{
+margin: 0 auto;
+    width: 1280px;
+}
+
+
+body{
+
+    background-image: url("../images/bg.jpg") ;
+
+
+
+}
+
+header{
+
+    color:white;
+	
+}
+
+nav {width: 1280px;
+background-color: white;}
+
+nav a {
+
+    text-decoration: none;
+color: black;}
+
+
+nav
+ a :hover {
+    color: orange;
+
+}
+
+nav li {
+font-family: 'Montserrat', sans-serif;
+list-style: none;
+display: inline;
+margin-right:5% ;
+font-size: 1.5em;
+
+}
+
+
+
+
+h1{
+
+    text-align: center;
+
+    font-size: 3em;
+font-family: 'Fjalla One', sans-serif;
+color:white; 
+}
+
+
+p{
+color:white;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+section {width:1280px;
+    flex-wrap:wrap;
+    display: flex;
+    margin-left: 10px
+
+
+}
+
+section div img { width: 300px;
+     padding-right:5px;
+     margin-top: 50px;
+border: white 2px solid;
+
+margin:3px;
+}
+
+
+
+footer{
+position: fixed;
+    text-align: center ;
+    font-size: 1em ;
+    font-family: 'Montserrat', sans-serif;
+    width: 1280px ;
+    height: 50px ;
+    background-color: white ;
+    margin-top: 10px;
+}
+
+
+footer p{ color:black;
+
+}
+
