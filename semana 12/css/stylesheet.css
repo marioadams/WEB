@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
+*{border: 2px solid white;
+}
+body{
+	background-color: black;
+}
+
+
+h1 {
+	text-align: center;
+font-family: 'Passion One', cursive;
+color:white;
+font-size: 4em;
+}
+
+
+
+section {
+	width: 900px;
+}
+
+.wrapper{
+
+width: 900px;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+.video{
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+.video2{
+	
+	width:300px;
+	float: left;
+
+	
+}
+.t1{
+
+	margin-left: 50px;
+	padding-left: 300px;
+	padding-top: 
+	width:500px;
+	color:white;
+	height: 200px;
+
+}
+
+
+.t2{
+	
+	width:500px;
+	color:white;
+float: left;
+	
+
+}
+
+.second{}
+
+
+audio{ 
+	
+	width: 300px;
+	float: left;
+
+}
+	
