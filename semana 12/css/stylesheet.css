@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-*{border: 2px solid white;
-}
+
 body{
 	background-color: black;
 }
@@ -66,13 +66,14 @@ float: left;
 
 }
 
-.second{}
 
+p{font-family: 'Open Sans', sans-serif;}
 
 audio{ 
 	
 	width: 300px;
 	float: left;
+	margin-left: 10px;
 
 }
 	
