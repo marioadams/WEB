@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ /* *{border: red solid 1px;}*/
+
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+    
+}
+
+
+header{margin: 0 auto;
+	width:900px;
+
+}
+
+header img{
+margin: 0 auto;
+	width:900px;
+	height: 300px;
+	box-shadow: 10px 10px 10px #888888;
+
+}
+
+
+header h1 {
+
+	position: absolute;
+	text-align: center;
+	color:white; 
+	font-family: 'Passion One', cursive;
+
+}
+
+nav{
+
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+nav li{
+
+	display: inline;
+    font-family: 'Passion One', cursive;
+    font-size: 2em;
+    margin-left: 30px;
+      margin-right: 30px;
+
+ 
+}
+
+nav a{
+
+	text-decoration: none;
+	color: black;
+}
+
+a :hover{
+
+	color:red;
+
+}
+
+section {
+    
+    margin-left: 85px;
+	width: 900px;
+	margin-top: 50px;
+
+}
+
+section div{
+	
+	display: inline-block;
+	margin-left: 5px;
+}
+
+section div img{
+
+width:150px;
+}
+
+article p{
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    border: black solid 3px;
+    box-shadow: 10px 10px 10px #888888;
+}
+article div{
+
+	margin:0 auto;
+
+}
+
+article div h1 {
+margin-bottom: 50px;
+margin-top: 100px;
+	text-align: center;
+	font-family: 'Passion One', cursive;
+
+}
+
+footer p{
+
+margin-top: 100px;
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;}
