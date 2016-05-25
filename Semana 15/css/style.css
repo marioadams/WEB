@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400,700,400italic,300,300italic);
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Open Sans', sans-serif; font-weight: 300;
+}
+
+
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;font-weight: 300;
+}
+
+
+ul.topnav li a:hover {background-color: orange;}
+
+
+ul.topnav li.icon {display: none;}
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/*start of the body*/
+.icons a { color: white; }
+
+.icons{float: right;
+margin-right: 15px;
+color: white;}
+
+.icons :hover{
+    color: orange
+}
+
+.wrapper{
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    
+}
+
+.homeimg{width:100%;
+    position: relative;
+}
+
+@media screen and (max-width:680px) {
+  
+section div .bgimg .homeimg { max-width: 100%; }
+}
+
+h1{
+font-family: 'Open Sans', sans-serif; font-weight: 800;
+color:white;
+font-size: 3em;
+position: absolute;
+ position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+   margin-left: 5px;
+ }
+
+
+
+section h2{font-family: 'Open Sans', sans-serif; font-weight: 800;
+color:orange;
+font-size: 1.5em;
+margin-left: 30px;
+width:70%;
+height:100%;
+margin-top: 5%;
+display: inline-block; 
+
+}
+
+
+section p {display: inline;
+    font-family: 'Open Sans', sans-serif; font-weight: 400;
+color:white;
+font-size: 0.8em;
+margin-left: 30px;
+width:70%;
+height:100%;
+margin-top: 2%;
+display: inline-block; 
+padding-bottom: 10%
+
+
+
+}
+
+.pub{
+
+width: 100px;
+float: left;
+clear: left;
+margin-top:5%;
+ border-radius: 50%;
+margin-left: 5%;
+}
+
+.img-circle{
+
+width: 100px;
+float: left;
+clear: left;
+margin-top:5%;
+ border-radius: 50%;
+margin-left: 5%;
+}
+
+.sect2{display: inline-block;}
+
+footer{color: white;}
+
+
+@media screen and (max-width:680px) {
+  
+.sect2 { 
+
+    max-width: 100%}
+
+
+

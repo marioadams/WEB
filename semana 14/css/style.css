@@ -1,0 +1,12 @@
+.jumbotron h1{
+	color:red;
+}
+.btn-primary {background-color: red;}
+
+.row h2 {color:green;}
+
+.row p{color: pink;}
+
+.jumbotron {background-color: darkred;}
+
+.jumbotron p {color: white;}
